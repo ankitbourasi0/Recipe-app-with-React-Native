@@ -1,4 +1,4 @@
 {
-  "name": "recipe-app-native",
-  "displayName": "recipe-app-native"
+ 
+"expo":{ "name": "recipe-app-native","slug":"recipe-app-native","sdkVersion":"45.0.4"}
 }
