@@ -20,30 +20,24 @@ const Login = ({ navigation }) => {
           style={{ flex: 1, justifyContent: "flex-end" }}
           resizeMode="cover"
         >
-          {/* <LinearGradient start={{x:0,y:0}}
-        end={{x:0,y:1}}
-        color={[
-            COLORS.transparent,
-            COLORS.black
-        ]} 
-        // style={{
-        //     height:200,
-        //     justifyContent:'flex-end',
-        //       paddingHorizontal:SIZES.padding
-        // }}
-        > 
-        </LinearGradient> */}
-
-          <Text
-            style={{
-              width: "80%",
-              color: COLORS.white,
-              ...FONTS.largeTitle,
-              lineHeight: 45,
-            }}
+          <LinearGradient
+            start={{ x: 0, y: 0 }}
+            end={{ x: 0, y: 1 }}
+            colors={[COLORS.transparent, COLORS.black]}
+            style={{ height: 200, justifyContent: "flex-end",
+          paddingHorizontal:SIZES.padding }}
           >
-            Cooking a Delicious Food Easily
-          </Text>
+            <Text
+              style={{
+                width: "80%",
+                color: COLORS.white,
+                ...FONTS.largeTitle,
+                lineHeight: 45,
+              }}
+            >
+              Cooking a Delicious Food Easily
+            </Text>
+          </LinearGradient>
         </ImageBackground>
       </View>
     );
@@ -57,6 +51,7 @@ const Login = ({ navigation }) => {
           style={{
             marginTop: SIZES.radius,
             width: "70%",
+
             color: COLORS.gray,
             ...FONTS.body3,
           }}
@@ -71,8 +66,8 @@ const Login = ({ navigation }) => {
           <CustomButton
             buttonText="Login"
             buttonContainerStyle={{
-                paddingVertical: 18,
-                borderRadius:20
+              paddingVertical: 18,
+              borderRadius: 20,
             }}
             colors={[COLORS.darkGreen, COLORS.lime]}
             onPress={() => navigation.replace("Home")}
@@ -81,11 +76,12 @@ const Login = ({ navigation }) => {
           <CustomButton
             buttonText="Sign Up"
             colors={[]}
-            buttonContainerStyle={{marginTop:SIZES.radius,
-                paddingVertical: 18,
-                borderRadius:20,
-                borderColor:COLORS.darkLime,
-                borderWidth:1
+            buttonContainerStyle={{
+              marginTop: SIZES.radius,
+              paddingVertical: 18,
+              borderRadius: 20,
+              borderColor: COLORS.darkLime,
+              borderWidth: 1,
             }}
             onPress={() => navigation.replace("Home")}
           />
@@ -113,17 +109,13 @@ const Login = ({ navigation }) => {
 
 export default Login;
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    backgroundColor: "orange",
-  },
+  gradient: {},
+
   background: {
     position: "absolute",
     left: 0,
     right: 0,
-    top: 0,
+    bottom: 0,
     height: 300,
   },
 });
