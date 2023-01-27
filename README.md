@@ -1,10 +1,9 @@
 # Recipe-app-with-React-Native
-#For Preview- 
-##https://expo.dev/@ankitbourasi24/recipe-app-native
-##Simple Recipe App for Mobile, Using React Native 
-##Uses- Clone -https://github.com/ankitbourasi0/Recipe-app-with-React-Native.git
-## run npm install or yarn
-## run expo start
+# For Preview- 
+## https://expo.dev/@ankitbourasi24/recipe-app-native
+## Simple Recipe App for Mobile, Using React Expo 
+## Clone -https://github.com/ankitbourasi0/Recipe-app-with-React-Native.git
+
 ScreenShots-
 ![ss1](https://user-images.githubusercontent.com/34002165/169689592-074587b3-72aa-4e39-9c16-32440de1a47d.jpg)
 ![ss2](https://user-images.githubusercontent.com/34002165/169689600-285efc1b-8404-4036-ba77-5dc97c9a96c3.jpg)
